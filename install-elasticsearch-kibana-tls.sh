@@ -47,7 +47,7 @@ echo "Installing Kibana..."
 sudo apt install -y kibana
 
 # Configure Kibana
-echo "⚙Configuring Kibana..."
+echo "Configuring Kibana..."
 
 sudo tee /etc/kibana/kibana.yml > /dev/null <<EOF
 server.port: 5601
